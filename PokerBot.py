@@ -29,7 +29,7 @@ def simulate(state: PokerState, node):
 
 def makeDecisions(state):
     start_time = time.time()
-    time_limit = 10
+    time_limit = 9
     n = set()
     for rank in range(1, 14):
         for suit in range(4):
